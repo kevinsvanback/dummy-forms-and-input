@@ -1,6 +1,6 @@
 import useInput from '../hooks/useInput';
 
-const SimpleInput = (props) => {
+const SimpleInput = () => {
   const { enteredValue: enteredName,
     enteredValueIsValid: enteredNameIsValid,
     valueInputIsInvalid: nameInputIsInvalid,

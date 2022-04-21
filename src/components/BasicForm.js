@@ -1,6 +1,6 @@
 import useInput from "../hooks/useInput";
 
-const BasicForm = (props) => {
+const BasicForm = () => {
   const { enteredValue: enteredFirstName,
     enteredValueIsValid: enteredFirstNameIsValid,
     valueInputIsInvalid: firstNameInputIsInvalid,
